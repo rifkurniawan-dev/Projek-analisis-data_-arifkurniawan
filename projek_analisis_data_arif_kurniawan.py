@@ -171,10 +171,6 @@ fig2 = px.bar(weather_avg, x=weather_avg.index, y=weather_avg.values,
 fig2.update_layout(xaxis_title="Kategori Cuaca", yaxis_title="Rata-rata Penyewaan Sepeda")
 fig2.show()
 
-# Menyimpan hasil analisis sebagai CSV
-season_avg.to_csv("season_avg.csv")
-weather_avg.to_csv("weather_avg.csv")
-
 pip install streamlit
 
 import streamlit as st
